@@ -7,7 +7,7 @@ def fillDicts(encoder, decoder):
     #get rules from file
     fInput = file('morsecode.txt')
 
-    #split each line intio a key, value pair--ignore \n
+    #split each line into a key, value pair--ignore \n
     for line in fInput:
         if line.strip():
             key, value = line.strip().split()
